@@ -40,27 +40,3 @@ StartupSense-AI/
 
 ---
 
-## 🚀 3-Step Setup & Running Guide
-
-### Step 1: Install Dependencies
-Open your terminal in `D:\opensource\StarupSense-AI` and install the npm packages:
-
-```bash
-npm install
-```
-
-### Step 2: (Optional) Start Local Gemma 3 Model
-If you want to use live local inference with [Ollama](https://ollama.com/):
-
-```bash
-ollama run gemma3
-```
-*Note: If Ollama or Gemma 3 is not running, StartupSense AI will automatically switch to its built-in Antigravity Simulation Engine so your live hackathon demo never fails.*
-
-### Step 3: Run the Development Server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to experience **StartupSense AI**!
